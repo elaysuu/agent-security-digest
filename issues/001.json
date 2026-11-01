@@ -1,0 +1,387 @@
+{
+ "issue": 1,
+ "start": "2026-10-25T14:11:53.000Z",
+ "end": "2026-11-01T14:11:53.000Z",
+ "items": [
+  {
+   "id": "GHSA-f897-62hf-6gxq",
+   "aliases": [
+    "GHSA-f897-62hf-6gxq"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/hono",
+   "severity": "HIGH",
+   "summary": "MCP TypeScript SDK: HTTP server transports and handlers did not limit request body size or JSON-RPC batch length",
+   "published": "2026-10-27T19:02:00Z",
+   "fixed": "2.0.1",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T19:15:22.388698300Z"
+  },
+  {
+   "id": "GHSA-f897-62hf-6gxq",
+   "aliases": [
+    "GHSA-f897-62hf-6gxq"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/node",
+   "severity": "HIGH",
+   "summary": "MCP TypeScript SDK: HTTP server transports and handlers did not limit request body size or JSON-RPC batch length",
+   "published": "2026-10-27T19:02:00Z",
+   "fixed": "2.1.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T19:15:22.388698300Z"
+  },
+  {
+   "id": "GHSA-f897-62hf-6gxq",
+   "aliases": [
+    "GHSA-f897-62hf-6gxq"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/sdk",
+   "severity": "HIGH",
+   "summary": "MCP TypeScript SDK: HTTP server transports and handlers did not limit request body size or JSON-RPC batch length",
+   "published": "2026-10-27T19:02:00Z",
+   "fixed": "1.30.1",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T19:15:22.388698300Z"
+  },
+  {
+   "id": "GHSA-f897-62hf-6gxq",
+   "aliases": [
+    "GHSA-f897-62hf-6gxq"
+   ],
+   "ecosystem": "npm",
+   "package": "@modelcontextprotocol/server",
+   "severity": "HIGH",
+   "summary": "MCP TypeScript SDK: HTTP server transports and handlers did not limit request body size or JSON-RPC batch length",
+   "published": "2026-10-27T19:02:00Z",
+   "fixed": "2.1.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T19:15:22.388698300Z"
+  },
+  {
+   "id": "GHSA-q344-5v34-gm84",
+   "aliases": [
+    "GHSA-q344-5v34-gm84",
+    "CVE-2026-62264"
+   ],
+   "ecosystem": "npm",
+   "package": "@sylphx/pdf-reader-mcp",
+   "severity": "HIGH",
+   "summary": "@sylphx/pdf-reader-mcp: HTTP transport accepts unauthenticated requests despite a configured MCP_API_KEY",
+   "published": "2026-10-29T16:34:35Z",
+   "fixed": "3.0.1",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-29T16:45:05.114119393Z"
+  },
+  {
+   "id": "GHSA-g5ff-637f-6q2m",
+   "aliases": [
+    "GHSA-g5ff-637f-6q2m"
+   ],
+   "ecosystem": "PyPI",
+   "package": "litellm",
+   "severity": "HIGH",
+   "summary": "LiteLLM: internal_user_viewer arbitrary local file read via `vertex_ai_credentials`",
+   "published": "2026-10-27T15:32:36Z",
+   "fixed": "1.95.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T15:47:24.299145356Z"
+  },
+  {
+   "id": "GHSA-7hp6-4w63-5g45",
+   "aliases": [
+    "GHSA-7hp6-4w63-5g45",
+    "CVE-2026-114612"
+   ],
+   "ecosystem": "PyPI",
+   "package": "litellm",
+   "severity": "HIGH",
+   "summary": "LiteLLM: Privilege Escalation to Proxy Admin via Cross-Domain Reuse of the Salt Key",
+   "published": "2026-10-27T15:04:14Z",
+   "fixed": "1.100.4",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T15:15:08.260681544Z"
+  },
+  {
+   "id": "GHSA-4mfg-r38w-w8fg",
+   "aliases": [
+    "GHSA-4mfg-r38w-w8fg"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-sanitizer",
+   "severity": "HIGH",
+   "summary": "mcp-sanitizer: URL sanitizer allows localhost/IPv6 loopback SSRF bypass via explicit port or bracketed IPv6",
+   "published": "2026-10-28T19:51:39Z",
+   "fixed": "1.4.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-28T20:00:03.833543701Z"
+  },
+  {
+   "id": "GHSA-7w82-6f9j-v9jp",
+   "aliases": [
+    "GHSA-7w82-6f9j-v9jp"
+   ],
+   "ecosystem": "npm",
+   "package": "mcp-sanitizer",
+   "severity": "HIGH",
+   "summary": "mcp-sanitizer: File Path Sanitizer Permits Arbitrary User-Home Absolute Paths",
+   "published": "2026-10-28T19:51:34Z",
+   "fixed": "1.4.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-28T20:00:03.842872158Z"
+  },
+  {
+   "id": "GHSA-3w55-933p-8pv5",
+   "aliases": [
+    "GHSA-3w55-933p-8pv5"
+   ],
+   "ecosystem": "PyPI",
+   "package": "strands-agents",
+   "severity": "HIGH",
+   "summary": "Strands Agents: Local Privilege Escalation via Symlink Attack in Default Session File Storage",
+   "published": "2026-10-27T15:34:33Z",
+   "fixed": "1.48.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T15:47:09.668142875Z"
+  },
+  {
+   "id": "GHSA-h3rc-j82p-2c3h",
+   "aliases": [
+    "GHSA-h3rc-j82p-2c3h",
+    "CVE-2026-115915"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "HIGH",
+   "summary": "vLLM: Untrusted EPS inputs can trigger denial of service or Ghostscript RCE",
+   "published": "2026-10-28T21:15:29Z",
+   "fixed": "0.32.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-29T11:10:56.163830323Z"
+  },
+  {
+   "id": "GHSA-6757-hggm-hp2w",
+   "aliases": [
+    "GHSA-6757-hggm-hp2w",
+    "CVE-2026-115912"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "HIGH",
+   "summary": "vLLM: Public multimodal SHM handle forgery reaches worker-side `pickle.loads()` with insecure serialization disabled",
+   "published": "2026-10-28T21:15:15Z",
+   "fixed": "0.32.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-29T11:10:54.932940889Z"
+  },
+  {
+   "id": "GHSA-h3rc-6mm3-gc2m",
+   "aliases": [
+    "GHSA-h3rc-6mm3-gc2m",
+    "CVE-2026-114053"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "HIGH",
+   "summary": "vLLM: Request-controlled mm_processor_kwargs.code_revision allows remote code execution",
+   "published": "2026-10-27T15:36:17Z",
+   "fixed": "0.31.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T15:47:24.651715597Z"
+  },
+  {
+   "id": "GHSA-hhww-mrg2-969h",
+   "aliases": [
+    "GHSA-hhww-mrg2-969h"
+   ],
+   "ecosystem": "PyPI",
+   "package": "litellm",
+   "severity": "MEDIUM",
+   "summary": "LiteLLM vulnerable to reflected XSS in /sso/debug/callback",
+   "published": "2026-10-27T15:31:56Z",
+   "fixed": "1.85.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T15:47:24.395753522Z"
+  },
+  {
+   "id": "GHSA-w4fh-qvv9-3v23",
+   "aliases": [
+    "GHSA-w4fh-qvv9-3v23",
+    "CVE-2026-116684"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "MEDIUM",
+   "summary": "Model Context Protocol Python SDK: Server bearer-token authentication accepts tokens issued for a different resource server",
+   "published": "2026-10-27T21:06:59Z",
+   "fixed": "2.2.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T21:15:03.825987077Z"
+  },
+  {
+   "id": "GHSA-5h93-6whr-6q8j",
+   "aliases": [
+    "GHSA-5h93-6whr-6q8j",
+    "CVE-2026-116685"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "MEDIUM",
+   "summary": "Model Context Protocol Python SDK: HTTP client transports followed cross-origin redirects carrying custom headers and bodies",
+   "published": "2026-10-27T21:05:34Z",
+   "fixed": "2.2.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T21:15:03.819223133Z"
+  },
+  {
+   "id": "GHSA-rwrf-2pqf-9j8j",
+   "aliases": [
+    "GHSA-rwrf-2pqf-9j8j",
+    "CVE-2026-116686"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mcp",
+   "severity": "MEDIUM",
+   "summary": "Model Context Protocol Python SDK: Client fetched server-chosen $ref URLs while validating tool results against output schemas",
+   "published": "2026-10-27T21:05:29Z",
+   "fixed": "2.2.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T21:15:03.830660129Z"
+  },
+  {
+   "id": "GHSA-j7qq-vr8c-xvw3",
+   "aliases": [
+    "GHSA-j7qq-vr8c-xvw3",
+    "CVE-2026-116691"
+   ],
+   "ecosystem": "PyPI",
+   "package": "mlflow",
+   "severity": "MEDIUM",
+   "summary": "MLflow CrewAI autologging records LLM provider API keys in logged trace spans",
+   "published": "2026-10-27T21:26:39Z",
+   "fixed": "3.17.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T21:45:04.265039747Z"
+  },
+  {
+   "id": "GHSA-763v-5pjm-fx36",
+   "aliases": [
+    "GHSA-763v-5pjm-fx36"
+   ],
+   "ecosystem": "PyPI",
+   "package": "strands-agents",
+   "severity": "MEDIUM",
+   "summary": "Strands Agents: Default FileSessionManager storage is world-readable on shared systems",
+   "published": "2026-10-27T15:34:28Z",
+   "fixed": "1.48.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T15:47:24.152066847Z"
+  },
+  {
+   "id": "GHSA-8397-8qf6-f2gm",
+   "aliases": [
+    "GHSA-8397-8qf6-f2gm",
+    "CVE-2026-115913"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "MEDIUM",
+   "summary": "vLLM: Phi-4 multimodal audio encoder materializes and retains full attention matrices: a single max-length audio OOM-crashes the vLLM engine",
+   "published": "2026-10-28T21:15:41Z",
+   "fixed": "0.32.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-28T21:30:04.906082406Z"
+  },
+  {
+   "id": "GHSA-gq5q-89c7-vhvx",
+   "aliases": [
+    "GHSA-gq5q-89c7-vhvx",
+    "CVE-2026-115914"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "MEDIUM",
+   "summary": "vLLM DeepSeek-OCR image processing vulnerable to denial of service",
+   "published": "2026-10-28T21:15:35Z",
+   "fixed": "0.32.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-28T21:30:04.994007514Z"
+  },
+  {
+   "id": "GHSA-q97c-p368-75c4",
+   "aliases": [
+    "GHSA-q97c-p368-75c4",
+    "CVE-2026-115916"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "MEDIUM",
+   "summary": "vLLM: Out-of-vocabulary prompt token id passes input validation and triggers a CUDA device-side assert (engine crash / DoS)",
+   "published": "2026-10-28T21:15:08Z",
+   "fixed": "0.32.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-29T11:10:41.396326766Z"
+  },
+  {
+   "id": "GHSA-x567-49g5-p4cf",
+   "aliases": [
+    "GHSA-x567-49g5-p4cf",
+    "CVE-2026-115918"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "MEDIUM",
+   "summary": "vLLM: Responses API bypasses trust_request_chat_template for chat_template_kwargs",
+   "published": "2026-10-28T21:14:59Z",
+   "fixed": "0.32.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-29T11:10:53.778002992Z"
+  },
+  {
+   "id": "GHSA-542m-9234-8gvf",
+   "aliases": [
+    "GHSA-542m-9234-8gvf",
+    "CVE-2026-115911"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "MEDIUM",
+   "summary": "vLLM: DoS via unbounded chat_template Jinja2 rendering exhausts the renderer thread pool",
+   "published": "2026-10-28T21:14:52Z",
+   "fixed": "0.32.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-29T11:10:38.035035010Z"
+  },
+  {
+   "id": "GHSA-frvg-qw88-hww9",
+   "aliases": [
+    "GHSA-frvg-qw88-hww9",
+    "CVE-2026-94624"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "MEDIUM",
+   "summary": "vllm p2p never connected zmq_exhaustion",
+   "published": "2026-10-27T14:45:53Z",
+   "fixed": "0.32.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-27T15:10:41.344077240Z"
+  },
+  {
+   "id": "GHSA-vvpg-rrww-wpmh",
+   "aliases": [
+    "GHSA-vvpg-rrww-wpmh",
+    "CVE-2026-115917"
+   ],
+   "ecosystem": "PyPI",
+   "package": "vllm",
+   "severity": "LOW",
+   "summary": "vLLM: Permissive default CORS origins allow cross-origin requests to the vLLM HTTP server",
+   "published": "2026-10-28T21:15:49Z",
+   "fixed": "0.32.0",
+   "source": "GitHub Advisory Database",
+   "osv_modified": "2026-10-29T11:11:01.946255441Z"
+  }
+ ]
+}
