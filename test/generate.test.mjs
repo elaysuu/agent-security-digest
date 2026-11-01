@@ -1,0 +1,10 @@
+import test from 'node:test'; import assert from 'node:assert';
+import { isAgentRelated, inWindow, render, rss } from '../scripts/generate.mjs';
+const end = Date.parse('2026-11-01T00:00:00Z');
+const items = [{ id: 'GHSA-aaaa-bbbb-cccc', package: 'x-mcp', ecosystem: 'npm', severity: 'HIGH', summary: 'a|b', fixed: '1.0.1' }];
+test('filter', () => { assert.ok(isAgentRelated({ package: 'foo-mcp', summary: '' })); assert.ok(!isAgentRelated({ package: 'undici', summary: 'bypass in Agent' })); });
+test('window', () => { assert.ok(inWindow('2026-10-30T00:00:00Z', end)); assert.ok(!inWindow('2026-10-20T00:00:00Z', end)); });
+test('render has sponsor, gate plug, attribution', () => { const md = render(items, { start: end - 7*864e5, end, issue: 1 });
+  for (const s of ['## Sponsor', 'agent-advisory-gate', 'CC BY 4.0', 'AKRENON', 'osv.dev/vulnerability/GHSA-aaaa-bbbb-cccc', 'a/b']) assert.ok(md.includes(s), s); });
+test('sponsor filled', () => { assert.ok(render([], { start: 0, end, issue: 2, sponsor: { name: 'Acme', text: 't', url: 'https://acme' } }).includes('**Acme**')); });
+test('rss escapes', () => { const x = rss([{ ...items[0], package: '<b>' }], { end, issue: 1, link: 'https://e?a=1&b=2' }); assert.ok(x.includes('&amp;b=2') && x.includes('&lt;b&gt;')); });
