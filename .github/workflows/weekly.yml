@@ -1,0 +1,21 @@
+name: weekly-issue
+on:
+  schedule: [{ cron: '0 6 * * 1' }]   # Mondays 06:00 UTC
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node --test test/
+      - name: generate
+        env: { GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}' }
+        run: |
+          N=$(( $(ls issues/[0-9]*.md 2>/dev/null | wc -l) + 1 ))
+          ISSUE=$N node scripts/generate.mjs
+      - run: |
+          git config user.name github-actions; git config user.email github-actions@users.noreply.github.com
+          git add issues && git commit -m "issue $(date -u +%F)" && git push || echo nothing
